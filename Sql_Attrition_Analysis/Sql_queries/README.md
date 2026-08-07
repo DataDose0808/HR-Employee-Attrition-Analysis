@@ -530,69 +530,6 @@ This compares with:
 The increasing attrition rate across the risk categories provides evidence that the rule-based framework is useful for **historical workforce segmentation**.
 
 ---
-
-# 🧮 SQL Techniques Demonstrated
-
-This project demonstrates practical SQL techniques including:
-
-### Filtering
-
-```sql
-WHERE
-```
-
-### Aggregation
-
-```sql
-COUNT()
-AVG()
-SUM()
-```
-
-### Grouping
-
-```sql
-GROUP BY
-```
-
-### Sorting
-
-```sql
-ORDER BY
-```
-
-### Conditional Aggregation
-
-```sql
-COUNT(
-    CASE WHEN ...
-END
-)
-```
-
-### Conditional Logic
-
-```sql
-CASE
-    WHEN ...
-    THEN ...
-END
-```
-
-### NULL Handling
-
-```sql
-NULLIF()
-```
-
-### Data Validation
-
-* Duplicate checks
-* NULL checks
-* Category validation
-* Row-count validation
-* Range validation
-
 ### Analytical Calculations
 
 * Attrition rate
@@ -662,44 +599,6 @@ Other factors may interact with overtime, including:
 * Work-life balance
 
 The risk analysis is also a **rule-based segmentation framework**, not a predictive machine-learning model.
-
----
-
-# 📁 SQL Repository Structure
-
-```text
-03_SQL_Analysis/
-│
-├── 01_create_table.sql
-│
-├── 02_data_quality_checks.sql
-│
-├── 03_hr_business_questions.sql
-│
-└── README.md
-```
-
----
-
-# 🔗 Project Navigation
-
-| Project Stage              | Repository          |
-| -------------------------- | ------------------- |
-| Data Preparation           | `01_Data`           |
-| Excel Analysis             | `02_Excel_Analysis` |
-| SQL Analysis               | `03_SQL_Analysis`   |
-| Power BI Dashboard         | `04_PowerBI`        |
-| DAX                        | `05_DAX`            |
-| Insights & Recommendations | `06_Insights`       |
-
----
-
-# 🚀 Next Step
-
-The validated SQL analysis was used as the foundation for the Power BI reporting layer.
-
-**Next:** `04_PowerBI/README.md`
-
 ---
 
 ## 👤 Skills Demonstrated
