@@ -123,25 +123,6 @@ Power BI Validation
 ```
 
 ---
-
-# 📁 SQL Files
-
-The SQL analysis is organized into three main scripts.
-
-```text
-03_SQL_Analysis/
-│
-├── 01_create_table.sql
-│
-├── 02_data_quality_checks.sql
-│
-├── 03_hr_business_questions.sql
-│
-└── README.md
-```
-
----
-
 # 01 — Table Creation
 
 ### File
